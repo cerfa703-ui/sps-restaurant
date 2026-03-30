@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SPS Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #e67e22;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('https://picsum.photos/1200/400') no-repeat center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 30%;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        @media(max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍽️ SPS Restaurant</h1>
+    <p>Fresh Food | Great Taste</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to SPS Restaurant</h2>
+    <p>Experience the best food in town</p>
+</section>
+
+<div class="container">
+
+    <h2 id="menu">Our Menu</h2>
+    <div class="menu">
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?1">
+            <h3>Pizza</h3>
+            <p>$10</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?2">
+            <h3>Burger</h3>
+            <p>$8</p>
+        </div>
+
+        <div class="card">
+            <img src="https://picsum.photos/300/200?3">
+            <h3>Pasta</h3>
+            <p>$12</p>
+        </div>
+
+    </div>
+
+    <h2 id="contact">Contact Us</h2>
+    <p>Email: sps@restaurant.com</p>
+    <p>Phone: +1234567890</p>
+
+</div>
+
+<footer>
+    <p>© 2026 SPS Restaurant | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
